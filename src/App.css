@@ -1,5 +1,18 @@
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative; /* Позволяет дочерним элементам позиционироваться относительно этого контейнера */
+}
+
+body {
+  background-color: #f0f0f0; /* Светло-серый фон */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Занимает всю высоту окна */
+  overflow: hidden; /* Убирает прокрутку */
 }
 
 .App-logo {
